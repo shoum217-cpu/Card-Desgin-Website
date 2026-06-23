@@ -1,0 +1,52 @@
+main {
+    background-image: url(Images/pulz.jpg);
+    background-size: cover;
+    height: 98vh;
+    padding: 2px;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.music {
+    top: 75vh;
+    text-align: center;
+    position: relative;
+}
+
+.love {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.baba {
+    border-radius: 20px;
+    background-color: red;
+    border: 5px solid #800000;
+    color: white;
+    font-size: 85px;
+    padding: 5px;
+}
+
+@media (max-width: 400px) {
+
+    main {
+        background-image: url(Images/pulz.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 98vh;
+        width: 100%;
+        overflow: auto;
+    }
+
+    .baba {
+        border-radius: 20px;
+        background-color: red;
+        border: 5px solid #800000;
+        color: white;
+        font-size: 30px;
+        width: auto;
+        padding: 5px;
+    }
+
+}
