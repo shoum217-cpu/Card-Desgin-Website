@@ -1,16 +1,22 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 main {
     background-image: url(Images/pulz.jpg);
     background-size: cover;
-    height: 98vh;
-    padding: 2px;
-    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
     overflow: auto;
+
 }
 
 .music {
-    top: 75vh;
     text-align: center;
     position: relative;
+    top: 75vh;
 }
 
 .love {
@@ -28,14 +34,18 @@ main {
 }
 
 @media (max-width: 400px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
 
     main {
         background-image: url(Images/pulz.jpg);
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
-        background-position: center center;
-        height: 98vh;
-        width: 100%;
+        background-position: center;
+        height: 100vh;
+        width: auto;
         overflow: auto;
     }
 
