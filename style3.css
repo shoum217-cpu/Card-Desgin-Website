@@ -1,7 +1,8 @@
 h1 {
     text-transform: uppercase;
-    font-weight: 700;
     text-align: center;
+    /* here its just a single text so no need of flex */
+    font-weight: 700;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -16,7 +17,6 @@ h1 {
     text-align: center;
     margin-left: 20px;
     margin-top: 20px;
-
 }
 
 img {
@@ -29,6 +29,7 @@ img {
 @media (max-width: 400px) {
 
     .images {
+        display: flex;
         flex-direction: column;
         margin-bottom: 10px;
     }
